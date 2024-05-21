@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/index.css" />
+    <link rel="stylesheet" href="../styles/pages.css" />
+    <title>Multiplication</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h3 id="timer">100</h3>
+        <h1 id="exercise"></h1>
+      </div>
+
+      <div class="bottom">
+        <form>
+          <input
+            type="text"
+            name="answer"
+            id="answer"
+            required
+            placeholder="Answer here"
+          />
+        </form>
+        <h1 id="submit">submit</h1>
+      </div>
+      <div class="window-1">
+        <pre>
+You have 100 seconds, 
+are you ready to multiplicate numbers?</pre
+        >
+        <input type="submit" value="start" id="start" />
+      </div>
+
+      <div class="window-2 hidden">
+        <h1>Your score is <span class="score"></span></h1>
+
+        <a href="./home.html" id="home-page">Home Page</a>
+      </div>
+    </div>
+    <script src="../js/Multiplication.js"></script>
+  </body>
+</html>
